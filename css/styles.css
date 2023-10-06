@@ -1,36 +1,27 @@
-h1 {
-  font-size: 52px;
-/*   font-size: 52px; matinlar sriftini katta kichigligi o'lchami uchun ishlatiladi bu yerda matinni o'lchami 52px deb buyrug' berayapmiz
- */}
- h2 {
-  font-weight: normal;
-/*   font-weight: normal; matinni shriftini qalin yuqaligini ko'rsatish uchun ishlatiladi normal tegi shriftni oddi qiladi bold tegi shrifrni qalin qiladi
- */ }
- h3 {
-  font-style: italic;
-/*   font-style: italic matinni yon tomonga yotqizish uchun ishlatiladi. Italic matinni yon tomonga yotqizadi normal matinni odatih holdagiday qiladi;
- */ }
- p {
-  text-decoration: overline;
-  text-decoration: underline;
-  text-decoration: line-through;
-  font-size: 100px;
-  /* text-decoration: overline; Matinni tepasiga chizadi */
-  /* text-decoration: underline; Matinni tagiga chizadi*/
-  /* text-decoration: line-through; matinni ustiga chizadi */
-/*   text-decoration: matindagi chiziqlarni olib tashlaydi;
- */ }
- h4 {
-  text-transform: capitalize;
-  /* text-transform: uppercase;Matindagi harflar transformatsiyasi uchun ishlariladi "uppercase" matindagi hamma harflarni katta qiladi "lowercase" matindagi hamma harflarni kichkina harf qiladi "capitalize" matindahi har bir so'zning bosh harfini katta harfda qiladi */
-  font-size: 50px;
- }
- h5 {
-  line-height: 60px;
-  font-size: 40px;
- }
- h6 {
-  text-align: center;
-/*   text-algin: center; matinni o'rtaga, onga, chapga to'rtburchal qolipga soladi "center" matinni o'rtaga oladi, "left" chap tomonga oladi, "right" o'ng tomonga oladi, "justyfy" matinni to'rtburchak qavsga oladi
- */  font-size: 50px;
- }
+.clas-1{
+  font-family: serif;
+  line-height: 1.5;
+  font-size: 24px;
+  /* font-family: serif; Matn shriftlarini Times New Romain stilida yozadi */
+}
+
+.clas-2{
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 24px;
+  /* font-family: sans-serif; Matn shriftlarini Arial stilida yozadi */
+}
+
+.clas-3{
+  font-family: cursive;
+  line-height: 1.5;
+  font-size: 24px;
+  /* font-family: serif; Matn shriftlarini qo'lyozma stilida yozadi */
+}
+
+.clas-4{
+  font-family: monospace;
+  line-height: 1.5;
+  font-size: 24px;
+  /* font-family: serif; Matn shriftlarini bosma stilda yozadi stilida yozadi */
+}
